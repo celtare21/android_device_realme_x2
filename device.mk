@@ -46,7 +46,8 @@ PRODUCT_PACKAGES += \
 
 # Common init scripts
 PRODUCT_PACKAGES += \
-    init.qcom.rc
+    init.qcom.rc \
+    init.affinity.sh
 
 PRODUCT_PACKAGES += \
     fstab.qcom

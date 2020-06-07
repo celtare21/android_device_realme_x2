@@ -131,6 +131,13 @@ on property:persist.vendor.sys.ssr.enable_ramdumps=0
     stop vendor.ss_ramdump
     stop vendor.ss_ramdump_local
 
+service affinity /vendor/etc/init.affinity.sh
+    class late_start
+    user root
+    group root system wakelock graphics
+    disabled
+    oneshot
+
 on property:sys.boot_completed=1
     stop vendor.ss_ramdump
 
@@ -145,6 +152,8 @@ on property:sys.boot_completed=1
     write /sys/block/dm-1/queue/read_ahead_kb 128
     write /sys/block/dm-2/queue/read_ahead_kb 128
     write /sys/block/dm-3/queue/read_ahead_kb 128
+
+    start affinity
 
 on property:vold.decrypt=trigger_restart_framework
     restart vendor.audio-hal-2-0
