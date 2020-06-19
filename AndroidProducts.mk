@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_x2.mk
+    $(LOCAL_DIR)/aicp_RMX1993.mk

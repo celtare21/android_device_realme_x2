@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := realme
-DEVICE_PATH := device/realme/x2
+DEVICE_PATH := device/realme/RMX1993
 
 #Broken Rules
 BUILD_BROKEN_DUP_RULES := true
