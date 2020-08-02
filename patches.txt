@@ -1,1 +1,23 @@
+# Build own camera service
 101034/1 http://gerrit.aicp-rom.com vendor/aicp
+
+# FOC cleanup
+103137/1 http://gerrit.aicp-rom.com frameworks/base
+103138/1 http://gerrit.aicp-rom.com frameworks/base
+103139/1 http://gerrit.aicp-rom.com frameworks/base
+103140/1 http://gerrit.aicp-rom.com frameworks/base
+103141/1 http://gerrit.aicp-rom.com frameworks/base
+103142/1 http://gerrit.aicp-rom.com frameworks/base
+103143/1 http://gerrit.aicp-rom.com frameworks/base
+103144/1 http://gerrit.aicp-rom.com packages/apps/AicpExtras
+103145/1 http://gerrit.aicp-rom.com packages/apps/AicpExtras
+103146/1 http://gerrit.aicp-rom.com packages/apps/AicpExtras
+103147/1 http://gerrit.aicp-rom.com packages/apps/AicpExtras
+103148/1 http://gerrit.aicp-rom.com frameworks/base
+103149/1 http://gerrit.aicp-rom.com frameworks/base
+103150/1 http://gerrit.aicp-rom.com frameworks/base
+103151/1 http://gerrit.aicp-rom.com frameworks/base
+103152/1 http://gerrit.aicp-rom.com frameworks/base
+103153/1 http://gerrit.aicp-rom.com frameworks/base
+102984/3 http://gerrit.aicp-rom.com frameworks/base
+103154/1 http://gerrit.aicp-rom.com frameworks/base
