@@ -173,4 +173,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
--include vendor/realme/X2/BoardConfigVendor.mk
+-include vendor/realme/x2/BoardConfigVendor.mk

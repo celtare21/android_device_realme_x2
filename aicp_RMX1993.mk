@@ -13,7 +13,7 @@ $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 PRODUCT_NAME := aicp_RMX1993
 PRODUCT_DEVICE := RMX1993
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme X2
+PRODUCT_MODEL := realme x2
 PRODUCT_MANUFACTURER := realme
 
 BUILD_FINGERPRINT := "realme/RMX1992/RMX1992L1:10/QKQ1.191201.002/1592194586:user/release-keys"
