@@ -106,6 +106,8 @@ TARGET_USES_DRM_PP := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
+TARGET_USES_DISPLAY_RENDER_INTENTS := true
+TARGET_USES_COLOR_METADATA := true
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/framework_compatibility_matrix.xml
@@ -171,4 +173,4 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
--include vendor/realme/x2/BoardConfigVendor.mk
+-include vendor/realme/X2/BoardConfigVendor.mk

@@ -68,10 +68,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
    ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
-   debug.sf.early_phase_offset_ns=500000 \
-   debug.sf.early_app_phase_offset_ns=500000 \
+   debug.sf.early_phase_offset_ns=11600000 \
+   debug.sf.early_app_phase_offset_ns=11600000 \
    debug.sf.early_gl_phase_offset_ns=3000000 \
-   debug.sf.early_gl_app_phase_offset_ns=15000000
+   debug.sf.early_gl_app_phase_offset_ns=15000000 \
+   debug.sf.phase_offset_threshold_for_next_vsync_ns=11600000
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -82,6 +83,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_hwc_vds=1 \
     dev.pm.dyn_samplingrate=1 \
     persist.front.skipdisplay.enable=1
+
+#lmkd options
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.config.low_ram=false \
+	ro.lmk.kill_heaviest_task=true \
+	ro.lmk.kill_timeout_ms=100 \
+	ro.lmk.use_minfree_levels=true \
+	ro.lmk.log_stats=true
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
