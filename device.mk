@@ -19,9 +19,6 @@ $(call inherit-product, vendor/realme/X2/X2-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
-#LMKD STAT LOGGING
-TARGET_LMKD_STATS_LOG := true
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
